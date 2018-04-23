@@ -1,0 +1,507 @@
+2018-04-21 16:25:26,533 INFO  [Log] -------Start TestCasetestCases.TestValid_Login@6ff29830---------- 
+2018-04-21 16:25:26,533 INFO  [Log] Inside Execute() method 
+2018-04-21 16:25:26,553 INFO  [Log] Clicking on Residetnail Option 
+2018-04-21 16:27:50,287 INFO  [Log] -------Start TestCasetestCases.TestValid_Login@2638011---------- 
+2018-04-21 16:27:50,288 INFO  [Log] Inside Execute() method 
+2018-04-21 16:27:50,305 INFO  [Log] Clicking on Residetnail Option 
+2018-04-21 16:30:02,264 INFO  [Log] -------Start TestCasetestCases.TestValid_Login@3098cf3b---------- 
+2018-04-21 16:30:02,264 INFO  [Log] Inside Execute() method 
+2018-04-21 16:30:02,285 INFO  [Log] Clicking on Residetnail Option 
+2018-04-21 16:35:49,836 INFO  [Log] -------Start TestCasetestCases.TestValid_Login@2638011---------- 
+2018-04-21 16:35:49,858 INFO  [Log] Inside Execute() method 
+2018-04-21 16:35:49,880 INFO  [Log] Clicking on Residetnail Option 
+2018-04-21 16:52:41,808 INFO  [Log] -------Start TestCasetestCases.TestValid_Login@2638011---------- 
+2018-04-21 16:52:41,808 INFO  [Log] Inside Execute() method 
+2018-04-21 16:52:41,825 INFO  [Log] Clicking on Residetnail Option 
+2018-04-21 16:54:11,542 INFO  [Log] -------Start TestCasetestCases.TestValid_Login@2638011---------- 
+2018-04-21 16:54:11,543 INFO  [Log] Inside Execute() method 
+2018-04-21 16:54:11,559 INFO  [Log] Clicking on Residetnail Option 
+2018-04-21 16:56:41,871 INFO  [Log] -------Start TestCasetestCases.TestValid_Login@2638011---------- 
+2018-04-21 16:56:41,872 INFO  [Log] Inside Execute() method 
+2018-04-21 16:56:41,892 INFO  [Log] Clicking on Residetnail Option 
+2018-04-21 17:47:57,022 INFO  [Log] -------Start TestCasetestCases.LoginTest@21e360a---------- 
+2018-04-21 17:48:05,240 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-21 17:48:05,283 INFO  [Log] Clicking on Residential Option 
+2018-04-21 17:54:14,439 INFO  [Log] -------Start TestCasetestCases.LoginTest@21e360a---------- 
+2018-04-21 17:54:21,519 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-21 17:54:21,555 INFO  [Log] Inside Login_Action.class - Test_Valid_Login() 
+2018-04-21 18:02:57,253 INFO  [Log] -------Start TestCasetestCases.LoginTest@6ff29830---------- 
+2018-04-21 18:02:57,254 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-21 18:02:57,286 INFO  [Log] Inside Login_Action.class - Test_Valid_Login() 
+2018-04-21 18:03:02,495 INFO  [Log] Residential Option is Displayed is displayed on the Home Page 
+2018-04-21 18:13:29,289 INFO  [Log] -------Start TestCasetestCases.LoginTest@6ff29830---------- 
+2018-04-21 18:13:29,290 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-21 18:13:29,306 INFO  [Log] Inside Login_Action.class - Test_Valid_Login() 
+2018-04-21 18:13:29,420 INFO  [Log] Residential Option is Displayed is displayed on the Home Page 
+2018-04-21 18:13:31,553 INFO  [Log] Residential Option is Displayed is displayed on the Home Page 
+2018-04-21 18:28:24,731 INFO  [Log] -------Start TestCasetestCases.LoginTest@2638011---------- 
+2018-04-21 18:28:24,732 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-21 18:28:24,753 INFO  [Log] Inside Login_Action.class - Test_Valid_Login() 
+2018-04-21 18:28:28,543 INFO  [Log] Residential Option is Displayed is displayed on the Home Page 
+2018-04-21 18:28:30,626 INFO  [Log] Login_Action.Test_Valid_Login() : PASS 
+2018-04-21 18:28:30,630 INFO  [Log] -------Start TestCasetestCases.LoginTest@2638011---------- 
+2018-04-21 18:28:30,630 INFO  [Log] Inside Login_Action.class - Test_InValid_Login() 
+2018-04-21 18:28:30,630 INFO  [Log] Clicking on Commercial Option 
+2018-04-21 18:28:34,360 INFO  [Log] Commercial Option is Displayed is displayed on the Home Page 
+2018-04-21 18:28:36,669 INFO  [Log] Login_Action.Test_InValid_Login() : PASS 
+2018-04-21 18:28:36,671 INFO  [Log] Login_Action.Test_InValid_Login() : FAIL 
+2018-04-21 18:30:08,828 INFO  [Log] -------Start TestCasetestCases.LoginTest@2638011---------- 
+2018-04-21 18:30:08,830 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-21 18:30:08,855 INFO  [Log] Inside Login_Action.class - Test_Valid_Login() 
+2018-04-21 18:30:11,575 INFO  [Log] Residential Option is Displayed is displayed on the Home Page 
+2018-04-21 18:30:13,663 INFO  [Log] Login_Action.Test_Valid_Login() : PASS 
+2018-04-21 18:30:13,667 INFO  [Log] -------Start TestCasetestCases.LoginTest@2638011---------- 
+2018-04-21 18:30:13,667 INFO  [Log] Inside Login_Action.class - Test_InValid_Login() 
+2018-04-21 18:30:13,667 INFO  [Log] Clicking on Commercial Option 
+2018-04-21 18:30:18,457 INFO  [Log] Commercial Option is Displayed is displayed on the Home Page 
+2018-04-21 18:30:20,661 INFO  [Log] Login_Action.Test_InValid_Login() : PASS 
+2018-04-21 18:51:47,519 INFO  [Log] -------Start TestCasetestCases.LoginTest@6ff29830---------- 
+2018-04-21 18:51:47,519 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-21 18:51:47,541 INFO  [Log] Inside Login_Action.class - Test_Valid_Login() 
+2018-04-21 18:51:50,904 INFO  [Log] Residential Option is Displayed is displayed on the Home Page 
+2018-04-21 18:51:52,796 INFO  [Log] Login_Action.Test_Valid_Login() : PASS 
+2018-04-21 18:51:52,799 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-21 18:51:52,800 INFO  [Log] X 
+2018-04-21 18:51:52,800 INFO  [Log] X 
+2018-04-21 18:51:52,800 INFO  [Log] X 
+2018-04-21 18:51:52,800 INFO  [Log] X 
+2018-04-21 18:51:52,801 INFO  [Log] -------Start TestCasetestCases.LoginTest@6ff29830---------- 
+2018-04-21 18:51:52,801 INFO  [Log] Inside Login_Action.class - Test_InValid_Login() 
+2018-04-21 18:51:52,801 INFO  [Log] Inside Login_Action.class - Test_InValid_Login() 
+2018-04-21 18:51:56,606 INFO  [Log] Commercial Option is Displayed is displayed on the Home Page 
+2018-04-21 18:51:58,640 INFO  [Log] Login_Action.Test_InValid_Login() : PASS 
+2018-04-21 18:51:58,641 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-21 18:51:58,641 INFO  [Log] X 
+2018-04-21 18:51:58,641 INFO  [Log] X 
+2018-04-21 18:51:58,641 INFO  [Log] X 
+2018-04-21 18:51:58,641 INFO  [Log] X 
+2018-04-21 19:13:55,053 INFO  [Log] -------Start TestCasetestCases.LoginTest@2f465398---------- 
+2018-04-21 19:13:55,056 INFO  [Log] Inside Login_Action.class - Test_InValid_Login() 
+2018-04-21 19:13:55,072 INFO  [Log] Inside Login_Action.class - Test_InValid_Login() 
+2018-04-21 19:13:59,359 INFO  [Log] Commercial Option is Displayed is displayed on the Home Page 
+2018-04-21 19:14:01,949 INFO  [Log] Login_Action.Test_InValid_Login() : PASS 
+2018-04-21 19:14:01,952 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-21 19:14:01,952 INFO  [Log] X 
+2018-04-21 19:14:01,952 INFO  [Log] X 
+2018-04-21 19:14:01,952 INFO  [Log] X 
+2018-04-21 19:14:01,952 INFO  [Log] X 
+2018-04-21 19:14:01,953 INFO  [Log] -------Start TestCasetestCases.LoginTest@2f465398---------- 
+2018-04-21 19:14:01,953 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-21 19:14:05,199 INFO  [Log] Residential Option is Displayed is displayed on the Home Page 
+2018-04-21 19:14:07,070 INFO  [Log] Login_Action.Test_Valid_Login() : PASS 
+2018-04-21 19:14:07,072 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-21 19:14:07,072 INFO  [Log] X 
+2018-04-21 19:14:07,072 INFO  [Log] X 
+2018-04-21 19:14:07,072 INFO  [Log] X 
+2018-04-21 19:14:07,072 INFO  [Log] X 
+2018-04-21 19:15:05,084 INFO  [Log] -------Start TestCasetestCases.LoginTest@2f465398---------- 
+2018-04-21 19:15:05,089 INFO  [Log] Inside Login_Action.class - Test_InValid_Login() 
+2018-04-21 19:15:05,107 INFO  [Log] Inside Login_Action.class - Test_InValid_Login() 
+2018-04-21 19:15:05,157 ERROR [Log] Commercial Option is not found on the Home Page 
+2018-04-21 19:15:05,157 ERROR [Log] Login_Action.Test_InValid_Login() : FAIL 
+2018-04-21 19:15:05,247 ERROR [Log] Given xpath expression "//form[@id='frmhomesearch']/div/div/div/div[2]/div/label/2" is invalid: SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
+System info: host: 'CNS04', ip: '169.254.228.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11720, moz:profile: C:\Users\spatel\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 261163f8-4ad5-4b05-a337-d73bf1b83565
+*** Element info: {Using=xpath, value=//form[@id='frmhomesearch']/div/div/div/div[2]/div/label/2} 
+2018-04-21 19:15:05,252 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-21 19:15:05,252 INFO  [Log] X 
+2018-04-21 19:15:05,252 INFO  [Log] X 
+2018-04-21 19:15:05,252 INFO  [Log] X 
+2018-04-21 19:15:05,252 INFO  [Log] X 
+2018-04-21 19:15:05,364 INFO  [Log] -------Start TestCasetestCases.LoginTest@2f465398---------- 
+2018-04-21 19:15:05,364 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-21 19:15:05,378 ERROR [Log] Residential Option is not found on the Home Page 
+2018-04-21 19:15:05,378 ERROR [Log] Login_Action.Test_Valid_Login() : FAIL 
+2018-04-21 19:15:05,890 ERROR [Log] Given xpath expression "//form[@id='frmhomesearch']/div/div/div/div[3]/div/label/1" is invalid: SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
+System info: host: 'CNS04', ip: '169.254.228.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11720, moz:profile: C:\Users\spatel\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 261163f8-4ad5-4b05-a337-d73bf1b83565
+*** Element info: {Using=xpath, value=//form[@id='frmhomesearch']/div/div/div/div[3]/div/label/1} 
+2018-04-21 19:15:05,892 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-21 19:15:05,892 INFO  [Log] X 
+2018-04-21 19:15:05,892 INFO  [Log] X 
+2018-04-21 19:15:05,892 INFO  [Log] X 
+2018-04-21 19:15:05,892 INFO  [Log] X 
+2018-04-21 19:18:37,476 INFO  [Log] -------Start TestCasetestCases.LoginTest@2f465398---------- 
+2018-04-21 19:18:37,481 INFO  [Log] Inside Login_Action.class - Test_InValid_Login() 
+2018-04-21 19:18:37,502 INFO  [Log] Inside Login_Action.class - Test_InValid_Login() 
+2018-04-21 19:18:37,548 ERROR [Log] Commercial Option is not found on the Home Page 
+2018-04-21 19:18:37,548 ERROR [Log] Login_Action.Test_InValid_Login() : FAIL 
+2018-04-21 19:18:37,912 ERROR [Log] Given xpath expression "//form[@id='frmhomesearch']/div/div/div/div[2]/div/label/2" is invalid: SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
+System info: host: 'CNS04', ip: '169.254.228.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3716, moz:profile: C:\Users\spatel\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b7434725-b898-4b80-b97b-c17460782d8e
+*** Element info: {Using=xpath, value=//form[@id='frmhomesearch']/div/div/div/div[2]/div/label/2} 
+2018-04-21 19:18:37,920 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-21 19:18:37,920 INFO  [Log] X 
+2018-04-21 19:18:37,920 INFO  [Log] X 
+2018-04-21 19:18:37,920 INFO  [Log] X 
+2018-04-21 19:18:37,921 INFO  [Log] X 
+2018-04-21 19:18:38,323 INFO  [Log] -------Start TestCasetestCases.LoginTest@2f465398---------- 
+2018-04-21 19:18:38,323 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-21 19:18:41,767 INFO  [Log] Residential Option is Displayed is displayed on the Home Page 
+2018-04-21 19:18:43,566 INFO  [Log] Login_Action.Test_Valid_Login() : PASS 
+2018-04-21 19:18:43,567 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-21 19:18:43,567 INFO  [Log] X 
+2018-04-21 19:18:43,567 INFO  [Log] X 
+2018-04-21 19:18:43,567 INFO  [Log] X 
+2018-04-21 19:18:43,567 INFO  [Log] X 
+2018-04-21 19:22:57,673 INFO  [Log] -------Start TestCasetestCases.LoginTest@2f465398---------- 
+2018-04-21 19:22:57,677 INFO  [Log] Inside Login_Action.class - Test_InValid_Login() 
+2018-04-21 19:22:57,693 INFO  [Log] Inside Login_Action.class - Test_InValid_Login() 
+2018-04-21 19:22:57,733 ERROR [Log] Commercial Option is not found on the Home Page 
+2018-04-21 19:22:57,734 ERROR [Log] Login_Action.Test_InValid_Login() : FAIL 
+2018-04-21 19:22:57,741 ERROR [Log] Given xpath expression "//form[@id='frmhomesearch']/div/div/div/div[2]/div/label/2" is invalid: SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:33:08.638Z'
+System info: host: 'CNS04', ip: '169.254.228.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2160, moz:profile: C:\Users\spatel\AppData\Loc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3efc86ce-fa5c-48ef-93b0-2367885fc154
+*** Element info: {Using=xpath, value=//form[@id='frmhomesearch']/div/div/div/div[2]/div/label/2} 
+2018-04-21 19:22:58,043 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-21 19:22:58,043 INFO  [Log] X 
+2018-04-21 19:22:58,043 INFO  [Log] X 
+2018-04-21 19:22:58,043 INFO  [Log] X 
+2018-04-21 19:22:58,043 INFO  [Log] X 
+2018-04-21 19:22:58,310 INFO  [Log] -------Start TestCasetestCases.LoginTest@2f465398---------- 
+2018-04-21 19:22:58,310 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-21 19:23:03,281 INFO  [Log] Residential Option is Displayed is displayed on the Home Page 
+2018-04-21 19:23:05,156 INFO  [Log] Login_Action.Test_Valid_Login() : PASS 
+2018-04-21 19:23:05,158 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-21 19:23:05,158 INFO  [Log] X 
+2018-04-21 19:23:05,158 INFO  [Log] X 
+2018-04-21 19:23:05,158 INFO  [Log] X 
+2018-04-21 19:23:05,158 INFO  [Log] X 
+2018-04-22 12:15:20,407 INFO  [Log] -------Start TestCasetestCases.LoginTest@3f6b0be5---------- 
+2018-04-22 12:15:34,149 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 12:15:37,861 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 12:16:02,254 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 12:16:06,608 INFO  [Log] Login_Action.Test_Valid_Login() : PASS 
+2018-04-22 12:16:06,612 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 12:16:06,612 INFO  [Log] X 
+2018-04-22 12:16:06,612 INFO  [Log] X 
+2018-04-22 12:16:06,612 INFO  [Log] X 
+2018-04-22 12:16:06,612 INFO  [Log] X 
+2018-04-22 12:25:49,385 INFO  [Log] -------Start TestCasetestCases.LoginTest@548e6d58---------- 
+2018-04-22 12:25:49,398 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 12:25:49,501 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 12:25:49,590 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 12:25:52,302 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 12:25:52,318 INFO  [Log] Test_Valid_Log() Executed Successfully 
+2018-04-22 12:25:52,319 INFO  [Log] Login_Action.Test_Valid_Login() : PASS 
+2018-04-22 12:25:52,323 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 12:25:52,324 INFO  [Log] X 
+2018-04-22 12:25:52,324 INFO  [Log] X 
+2018-04-22 12:25:52,324 INFO  [Log] X 
+2018-04-22 12:25:52,324 INFO  [Log] X 
+2018-04-22 12:35:41,059 INFO  [Log] -------Start TestCasetestCases.LoginTest@3b6ddd1d---------- 
+2018-04-22 12:35:50,165 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 12:35:53,349 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 12:36:00,156 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 12:36:05,654 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 12:36:05,666 INFO  [Log] Test_Valid_Log() Executed Successfully 
+2018-04-22 12:36:05,667 INFO  [Log] Login_Action.Test_Valid_Login() : PASS 
+2018-04-22 12:36:05,672 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 12:36:05,672 INFO  [Log] X 
+2018-04-22 12:36:05,672 INFO  [Log] X 
+2018-04-22 12:36:05,672 INFO  [Log] X 
+2018-04-22 12:36:05,672 INFO  [Log] X 
+2018-04-22 12:38:54,677 INFO  [Log] -------Start TestCasetestCases.LoginTest@3b6ddd1d---------- 
+2018-04-22 12:39:09,298 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 12:39:25,116 ERROR [Log] Unable to locate element: Sign in1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'SAM-DESKTOP', ip: '169.254.30.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7144, moz:profile: C:\Users\Sam\AppData\Local\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 79fc6eb2-d14b-4c74-83f4-1f926340010e
+*** Element info: {Using=link text, value=Sign in1} 
+2018-04-22 12:39:33,957 ERROR [Log] Login_Action.Test_Valid_Login() : FAIL 
+2018-04-22 12:39:38,325 ERROR [Log] Unable to locate element: Sign in1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'SAM-DESKTOP', ip: '169.254.30.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7144, moz:profile: C:\Users\Sam\AppData\Local\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 79fc6eb2-d14b-4c74-83f4-1f926340010e
+*** Element info: {Using=link text, value=Sign in1} 
+2018-04-22 12:40:44,756 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 12:40:44,757 INFO  [Log] X 
+2018-04-22 12:40:44,757 INFO  [Log] X 
+2018-04-22 12:40:44,758 INFO  [Log] X 
+2018-04-22 12:40:44,758 INFO  [Log] X 
+2018-04-22 12:40:49,998 INFO  [Log] -------Start TestCasetestCases.LoginTest@548e6d58---------- 
+2018-04-22 12:40:50,000 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 12:40:50,137 ERROR [Log] Unable to locate element: Sign in1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'SAM-DESKTOP', ip: '169.254.30.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3672, moz:profile: C:\Users\Sam\AppData\Local\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 267d212a-1b2d-4a57-a898-47fd1cce0387
+*** Element info: {Using=link text, value=Sign in1} 
+2018-04-22 12:40:50,137 ERROR [Log] Login_Action.Test_Valid_Login() : FAIL 
+2018-04-22 12:40:50,137 ERROR [Log] Unable to locate element: Sign in1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'SAM-DESKTOP', ip: '169.254.30.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3672, moz:profile: C:\Users\Sam\AppData\Local\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 267d212a-1b2d-4a57-a898-47fd1cce0387
+*** Element info: {Using=link text, value=Sign in1} 
+2018-04-22 12:40:50,850 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 12:40:50,850 INFO  [Log] X 
+2018-04-22 12:40:50,850 INFO  [Log] X 
+2018-04-22 12:40:50,850 INFO  [Log] X 
+2018-04-22 12:40:50,850 INFO  [Log] X 
+2018-04-22 12:49:59,026 INFO  [Log] -------Start TestCasetestCases.LoginTest@548e6d58---------- 
+2018-04-22 12:49:59,029 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 12:49:59,030 ERROR [Log]  
+2018-04-22 12:49:59,030 ERROR [Log] Login_Action.Test_Valid_Login() : FAIL 
+2018-04-22 12:49:59,030 ERROR [Log]  
+2018-04-22 12:49:59,448 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 12:49:59,448 INFO  [Log] X 
+2018-04-22 12:49:59,448 INFO  [Log] X 
+2018-04-22 12:49:59,448 INFO  [Log] X 
+2018-04-22 12:49:59,448 INFO  [Log] X 
+2018-04-22 12:54:10,379 INFO  [Log] -------Start TestCasetestCases.LoginTest@3b6ddd1d---------- 
+2018-04-22 12:54:20,365 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 12:55:06,981 ERROR [Log]  
+2018-04-22 12:55:09,692 ERROR [Log] FAIL :testCases.LoginTest@3b6ddd1d 
+2018-04-22 12:55:09,693 ERROR [Log]  
+2018-04-22 12:55:10,069 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 12:55:10,069 INFO  [Log] X 
+2018-04-22 12:55:10,069 INFO  [Log] X 
+2018-04-22 12:55:10,069 INFO  [Log] X 
+2018-04-22 12:55:10,069 INFO  [Log] X 
+2018-04-22 13:03:49,657 INFO  [Log] -------Start TestCasetestCases.LoginTest@548e6d58---------- 
+2018-04-22 13:03:49,661 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 13:03:49,757 ERROR [Log] Unable to locate element: Sign in1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'SAM-DESKTOP', ip: '169.254.30.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8692, moz:profile: C:\Users\Sam\AppData\Local\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 97366e36-7aa2-4242-9f14-992c6b43e752
+*** Element info: {Using=link text, value=Sign in1} 
+2018-04-22 13:03:49,757 ERROR [Log] FAIL :[Ljava.lang.reflect.Method;@35e52059 
+2018-04-22 13:03:49,757 ERROR [Log] Unable to locate element: Sign in1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'SAM-DESKTOP', ip: '169.254.30.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8692, moz:profile: C:\Users\Sam\AppData\Local\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 97366e36-7aa2-4242-9f14-992c6b43e752
+*** Element info: {Using=link text, value=Sign in1} 
+2018-04-22 13:03:50,103 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 13:03:50,104 INFO  [Log] X 
+2018-04-22 13:03:50,104 INFO  [Log] X 
+2018-04-22 13:03:50,104 INFO  [Log] X 
+2018-04-22 13:03:50,113 INFO  [Log] X 
+2018-04-22 13:09:58,743 INFO  [Log] -------Start TestCasetestCases.LoginTest@548e6d58---------- 
+2018-04-22 13:09:58,747 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 13:09:58,859 ERROR [Log] Unable to locate element: Sign in1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'SAM-DESKTOP', ip: '169.254.30.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 984, moz:profile: C:\Users\Sam\AppData\Local\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 15d891b7-2dd5-413b-b0f8-86613b600cd6
+*** Element info: {Using=link text, value=Sign in1} 
+2018-04-22 13:09:58,859 ERROR [Log] Unable to locate element: Sign in1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'SAM-DESKTOP', ip: '169.254.30.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 984, moz:profile: C:\Users\Sam\AppData\Local\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 15d891b7-2dd5-413b-b0f8-86613b600cd6
+*** Element info: {Using=link text, value=Sign in1} 
+2018-04-22 13:09:58,864 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 13:09:58,865 INFO  [Log] X 
+2018-04-22 13:09:58,865 INFO  [Log] X 
+2018-04-22 13:09:58,865 INFO  [Log] X 
+2018-04-22 13:09:58,865 INFO  [Log] X 
+2018-04-22 13:13:16,106 INFO  [Log] -------Start TestCasetestCases.LoginTest@548e6d58---------- 
+2018-04-22 13:13:16,111 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 13:13:16,225 ERROR [Log] Unable to locate element: Sign in1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'SAM-DESKTOP', ip: '169.254.30.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8624, moz:profile: C:\Users\Sam\AppData\Local\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ca9ca456-2e5a-4698-808f-f7ed4d65b92a
+*** Element info: {Using=link text, value=Sign in1} 
+2018-04-22 13:13:16,225 ERROR [Log] Login_Action.Test_Valid_Login() : FAIL 
+2018-04-22 13:13:16,226 ERROR [Log] Unable to locate element: Sign in1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'SAM-DESKTOP', ip: '169.254.30.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8624, moz:profile: C:\Users\Sam\AppData\Local\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ca9ca456-2e5a-4698-808f-f7ed4d65b92a
+*** Element info: {Using=link text, value=Sign in1} 
+2018-04-22 13:13:16,237 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 13:13:16,237 INFO  [Log] X 
+2018-04-22 13:13:16,237 INFO  [Log] X 
+2018-04-22 13:13:16,237 INFO  [Log] X 
+2018-04-22 13:13:16,237 INFO  [Log] X 
+2018-04-22 18:02:09,882 INFO  [Log] -------Start TestCasetestCases.LoginTest@548e6d58---------- 
+2018-04-22 18:02:09,891 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 18:02:09,988 ERROR [Log] Unable to locate element: Sign in1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'SAM-DESKTOP', ip: '169.254.30.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 12328, moz:profile: C:\Users\Sam\AppData\Local\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 57fb396a-d937-40c3-847d-7d6dfb7393c7
+*** Element info: {Using=link text, value=Sign in1} 
+2018-04-22 18:02:20,363 ERROR [Log] Class Utils | Method waitForElement | Exception occured while Wait For Element : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.linkText: Sign in1' (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-04-22 18:02:20,363 ERROR [Log] Login_Action.Test_Valid_Login() : FAIL 
+2018-04-22 18:02:20,363 ERROR [Log]  
+2018-04-22 18:02:20,375 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 18:02:20,375 INFO  [Log] X 
+2018-04-22 18:02:20,375 INFO  [Log] X 
+2018-04-22 18:02:20,375 INFO  [Log] X 
+2018-04-22 18:02:20,375 INFO  [Log] X 
+2018-04-22 18:04:52,905 INFO  [Log] -------Start TestCasetestCases.LoginTest@3f6b0be5---------- 
+2018-04-22 18:05:10,100 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 18:05:12,951 ERROR [Log] Unable to locate element: Sign in1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:42:22.379Z'
+System info: host: 'SAM-DESKTOP', ip: '169.254.30.183', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 4816, moz:profile: C:\Users\Sam\AppData\Local\..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 096df45b-0a90-4ef4-a526-65e394e8ed8e
+*** Element info: {Using=link text, value=Sign in1} 
+2018-04-22 18:05:23,262 ERROR [Log] Class Utils | Method waitForElement | Exception occured while Wait For Element : Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.linkText: Sign in1' (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-04-22 18:05:23,263 ERROR [Log] Login_Action.Test_Valid_Login() : FAIL 
+2018-04-22 18:05:29,228 ERROR [Log]  
+2018-04-22 18:05:29,241 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 18:05:29,241 INFO  [Log] X 
+2018-04-22 18:05:29,241 INFO  [Log] X 
+2018-04-22 18:05:29,242 INFO  [Log] X 
+2018-04-22 18:05:29,242 INFO  [Log] X 
+2018-04-22 18:08:34,617 INFO  [Log] -------Start TestCasetestCases.LoginTest@548e6d58---------- 
+2018-04-22 18:08:34,633 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 18:08:34,747 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 18:08:34,830 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 18:08:38,226 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 18:08:40,430 INFO  [Log] Test_Valid_Log() Executed Successfully 
+2018-04-22 18:08:40,431 INFO  [Log] Login_Action.Test_Valid_Login() : PASS 
+2018-04-22 18:08:40,434 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 18:08:40,434 INFO  [Log] X 
+2018-04-22 18:08:40,434 INFO  [Log] X 
+2018-04-22 18:08:40,434 INFO  [Log] X 
+2018-04-22 18:08:40,434 INFO  [Log] X 
+2018-04-22 18:14:13,923 INFO  [Log] -------Start TestCasetestCases.LoginTest@548e6d58---------- 
+2018-04-22 18:14:13,933 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 18:14:14,062 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 18:14:14,152 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 18:14:17,290 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 18:14:18,834 INFO  [Log] Email Textbox is Displayed on the Home Page 
+2018-04-22 18:14:20,545 INFO  [Log] Test_Valid_Log() Executed Successfully 
+2018-04-22 18:14:20,546 INFO  [Log] Login_Action.Test_Valid_Login() : PASS 
+2018-04-22 18:14:20,550 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 18:14:20,550 INFO  [Log] X 
+2018-04-22 18:14:20,550 INFO  [Log] X 
+2018-04-22 18:14:20,550 INFO  [Log] X 
+2018-04-22 18:14:20,550 INFO  [Log] X 
+2018-04-22 22:14:15,487 INFO  [Log] -------Start TestCasetestCases.LoginTest@57250572---------- 
+2018-04-22 22:14:15,506 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 22:14:15,588 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 22:14:15,670 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 22:14:18,949 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 22:14:21,151 INFO  [Log] Email Textbox is Displayed on the Home Page 
+2018-04-22 22:14:25,247 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 22:14:25,247 INFO  [Log] X 
+2018-04-22 22:14:25,247 INFO  [Log] X 
+2018-04-22 22:14:25,247 INFO  [Log] X 
+2018-04-22 22:14:25,247 INFO  [Log] X 
+2018-04-22 23:09:03,178 INFO  [Log] -------Start TestCasetestCases.LoginTest@3b6ddd1d---------- 
+2018-04-22 23:09:06,830 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 23:09:09,195 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 23:09:10,923 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 23:09:16,195 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 23:09:25,050 INFO  [Log] Email Textbox is Displayed on the Home Page 
+2018-04-22 23:09:27,293 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 23:09:27,293 INFO  [Log] X 
+2018-04-22 23:09:27,293 INFO  [Log] X 
+2018-04-22 23:09:27,293 INFO  [Log] X 
+2018-04-22 23:09:27,293 INFO  [Log] X 
+2018-04-22 23:21:39,315 INFO  [Log] -------Start TestCasetestCases.LoginTest@548e6d58---------- 
+2018-04-22 23:21:39,318 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 23:21:39,467 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 23:21:39,549 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 23:21:42,272 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 23:21:44,594 INFO  [Log] Email Textbox is Displayed on the Home Page 
+2018-04-22 23:21:46,437 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 23:21:46,437 INFO  [Log] X 
+2018-04-22 23:21:46,437 INFO  [Log] X 
+2018-04-22 23:21:46,437 INFO  [Log] X 
+2018-04-22 23:21:46,437 INFO  [Log] X 
+2018-04-22 23:28:53,995 INFO  [Log] -------Start TestCasetestCases.LoginTest@548e6d58---------- 
+2018-04-22 23:28:53,999 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 23:28:54,118 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 23:28:54,188 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 23:28:56,772 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 23:28:59,375 INFO  [Log] Email Textbox is Displayed on the Home Page 
+2018-04-22 23:29:03,203 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 23:29:03,203 INFO  [Log] X 
+2018-04-22 23:29:03,203 INFO  [Log] X 
+2018-04-22 23:29:03,203 INFO  [Log] X 
+2018-04-22 23:29:03,203 INFO  [Log] X 
+2018-04-22 23:34:44,073 INFO  [Log] -------Start TestCasetestCases.LoginTest@548e6d58---------- 
+2018-04-22 23:34:44,076 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 23:34:44,193 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 23:34:44,265 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 23:34:47,236 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 23:34:48,865 INFO  [Log] Email Textbox is Displayed on the Home Page 
+2018-04-22 23:34:50,711 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 23:34:50,712 INFO  [Log] X 
+2018-04-22 23:34:50,712 INFO  [Log] X 
+2018-04-22 23:34:50,712 INFO  [Log] X 
+2018-04-22 23:34:50,712 INFO  [Log] X 
+2018-04-22 23:50:48,761 INFO  [Log] -------Start TestCasetestCases.LoginTest@548e6d58---------- 
+2018-04-22 23:50:48,771 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 23:50:48,997 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 23:50:49,072 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 23:50:52,021 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 23:50:53,958 INFO  [Log] Email Textbox is Displayed on the Home Page 
+2018-04-22 23:50:56,464 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 23:50:56,464 INFO  [Log] X 
+2018-04-22 23:50:56,464 INFO  [Log] X 
+2018-04-22 23:50:56,464 INFO  [Log] X 
+2018-04-22 23:50:56,464 INFO  [Log] X 
+2018-04-22 23:54:52,439 INFO  [Log] -------Start TestCasetestCases.LoginTest@548e6d58---------- 
+2018-04-22 23:54:52,446 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-22 23:54:52,550 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 23:54:52,636 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 23:54:55,678 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-22 23:54:57,298 INFO  [Log] Email Textbox is Displayed on the Home Page 
+2018-04-22 23:54:59,213 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-22 23:54:59,213 INFO  [Log] X 
+2018-04-22 23:54:59,213 INFO  [Log] X 
+2018-04-22 23:54:59,213 INFO  [Log] X 
+2018-04-22 23:54:59,213 INFO  [Log] X 
+2018-04-23 23:36:56,797 INFO  [Log] -------Start TestCasetestCases.LoginTest@548e6d58---------- 
+2018-04-23 23:36:56,801 INFO  [Log] Inside Test_Valid_Login() method 
+2018-04-23 23:36:56,938 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-23 23:36:57,019 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-23 23:36:59,822 INFO  [Log] SignIn Link is Displayed is displayed on the Home Page 
+2018-04-23 23:37:02,193 INFO  [Log] Email Textbox is Displayed on the Home Page 
+2018-04-23 23:37:05,228 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-04-23 23:37:05,228 INFO  [Log] X 
+2018-04-23 23:37:05,228 INFO  [Log] X 
+2018-04-23 23:37:05,228 INFO  [Log] X 
+2018-04-23 23:37:05,228 INFO  [Log] X 

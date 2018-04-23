@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RD_Automate">
+<test name="TestValid_Login" >  
+	 <classes>       
+        <!--  class name="script.Home"/ --> 
+        <class name="com.scripts.LoginTest"/>    
+        <class name="com.scripts.RegistrationTest"/>    
+         
+    </classes>
+</test>
+ 
+</suite>
