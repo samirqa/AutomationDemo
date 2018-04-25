@@ -3,7 +3,6 @@ package appModule;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-import org.testng.Reporter;
 import pageObjects.Base;
 import pageObjects.Home_Page;
 import utility.Log;
@@ -21,8 +20,8 @@ public class Login_Action extends Base {
 		Base.driver = driver;
 	}
 
-	public static void Test_Valid_Login() throws Exception {
-		Log.info("Inside Test_Valid_Login() method");
+	public static void Test_Blank_login() throws Exception {
+		Log.info("Inside Login_Action.class - Test_Blank_login()");
 		// Clicking on the SignIn link on the Home Page
 		PageFactory.initElements(driver, Home_Page.class);
 		logger.info("waitForElement SignIn_Link()");
@@ -30,13 +29,27 @@ public class Login_Action extends Base {
 		Home_Page.SignIn_Link().click();
 		logger.info("Click on SignIn Link :" + Home_Page.SignIn_Link() + " Successfully");
 		Home_Page.SignIn_btn.click();
-		Home_Page.verifyEmail_Required();
-		logger.info("Display " + Home_Page.email_requierd.getText() + " message Successfully");
+		try {
+			logger.info("Verify Validation Message");
+			Assert.assertEquals("An email address required.", Home_Page.error_msg.getText());
+			logger.info("Display " + Home_Page.error_msg.getText() + " message Successfully");
+		} catch (Exception e) {
+			Log.error("Validation message is not matched");
+			throw (e);
+		}
+		logger.info("Enter Valid format email and Press Submit Test@Test.com");
 		Home_Page.Email().sendKeys("Test@Test.com");
 		Home_Page.SignIn_btn.click();
-		Home_Page.verifyPwd_Required();
-		logger.info("Display " + Home_Page.pwd_requierd.getText() + " message Successfully");
-		Log.info("Test_Valid_Log() Executed Successfully");
+		logger.info("Click on SignIn button");
+		try {
+			logger.info("Verify Validation Message");
+			Assert.assertEquals("Password is required.", Home_Page.error_msg.getText());
+			logger.info("Display " + Home_Page.error_msg.getText() + " message Successfully");
+		} catch (Exception e1) {
+			Log.error("Validation message is not matched");
+			throw (e1);
+		}
+		Log.info("Test_Blank_login() Executed Successfully");
 
 		// Storing the UserName in to a String variable and Getting the UserName from
 		// Test Data Excel sheet
@@ -80,11 +93,24 @@ public class Login_Action extends Base {
 	}
 
 	public static void Test_InValid_Login() throws Exception {
+		Log.info("Inside Test_InValid_Login() method");
+	//	String testName = method.getName();
+	//	System.out.println("Test Method Name :"+testName);
 		Log.info("Inside Login_Action.class - Test_InValid_Login()");
 		// Clicking on the My Account link on the Home Page
 		// Home_Page.Link_Login().click();
-
+		
 		PageFactory.initElements(driver, Home_Page.class);
+		Home_Page.Email().sendKeys("Test");
+		Home_Page.SignIn_btn.click();
+		try {
+			Assert.assertEquals("Invalid email address.", Home_Page.error_msg.getText());
+			logger.info("Display " + Home_Page.error_msg.getText() + " message Successfully");
+		} catch (Exception e) {
+			Log.error("Validation message is not matched");
+			throw (e);
 
 	}
+ }
+	
 }
