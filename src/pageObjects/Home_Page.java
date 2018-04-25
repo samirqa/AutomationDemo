@@ -5,7 +5,6 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.testng.Assert;
 
 import utility.Log;
 
@@ -23,9 +22,7 @@ public class Home_Page {
 	@FindBy(how = How.XPATH, using = "//button[@id='SubmitLogin']/span")
 	public static WebElement SignIn_btn;
 	@FindBy(how = How.XPATH, using = "//div[@id='center_column']/div/ol/li")
-	public static WebElement email_requierd;
-	@FindBy(how = How.XPATH, using = "//div[@id='center_column']/div/ol/li")
-	public static WebElement pwd_requierd;
+	public static WebElement error_msg;
 
 	public static WebElement SignIn_Link() throws Exception {
 		try {
@@ -77,20 +74,4 @@ public class Home_Page {
 		return Password;
 	}
 
-	public static void verifyEmail_Required() {
-		try {
-			Assert.assertEquals("An email address required.", Home_Page.email_requierd.getText());
-		} catch (Exception e) {
-			Log.error("Email mandatory message is not matched");
-			throw (e);
-		}
-	}
-	public static void verifyPwd_Required() {
-		try {
-			Assert.assertEquals("Password is required12.", Home_Page.pwd_requierd.getText());
-		} catch (Exception e) {
-			Log.error("Password mandatory message is not matched");
-			throw (e);
-		}
-	}
 }
