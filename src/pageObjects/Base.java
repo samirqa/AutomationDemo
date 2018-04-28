@@ -35,7 +35,7 @@ public class Base {
 	public void _beforeTest() {
 		DateFormat df = new SimpleDateFormat("dd.MM.yy-hhmmss");
 		htmlReporter = new ExtentHtmlReporter(
-				System.getProperty("user.dir") + "/src/reports/STMExtentReport" + df.format(new Date()) + ".html");
+				System.getProperty("user.dir") + "/src/reports/AutomationReport" + df.format(new Date()) + ".html");
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		extent.setSystemInfo("Host Name", "https://stage.realtydaddy.com");
@@ -57,9 +57,10 @@ public class Base {
 		// http://www.toolsqa.com/log4j-logging/
 		DOMConfigurator.configure("log4j.xml");
 
-		System.setProperty("webdriver.gecko.driver", "E:\\BrowsersDriver\\geckodriver-v0.19.1-win64\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", Constant.FF_Driver);
 		driver = new FirefoxDriver();
 		driver.navigate().to(Constant.URL);
+		//logger.info("Open URL :" +Constant.URL);
 		driver.manage().window().maximize();
 
 	}
