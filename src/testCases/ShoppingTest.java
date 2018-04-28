@@ -8,60 +8,56 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import appModule.Login_Action;
+import appModule.Shopping_Action;
 import pageObjects.Base;
 import utility.Constant;
 import utility.ExcelUtils;
 import utility.Log;
 import utility.TestListener;
 
-public class LoginTest extends Base {
+public class ShoppingTest extends Base {
 	// Getting the Test Case name, as it will going to use in so many places
 	private String sTestCaseName = this.toString();
 
 	@Test
-	public void Test_Login_Validation() throws Exception {
+	public void Test_Select_Product() throws Exception {
 		Log.info("-------Start TestCase" + sTestCaseName + "----------");
-		driver.manage().deleteAllCookies();
-		logger = extent.createTest("Test Login Validation");
+		logger = extent.createTest("Test Select Product");
 		ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData, "Sheet1");
 		try {
+			//Click on SignIn Link
 			Login_Action.Click_SignIn_Link();
-			Login_Action.Test_Blank_login();
-			logger.log(Status.PASS, MarkupHelper.createLabel("Test_Blank_login", ExtentColor.GREEN));
-			Log.info("Login_Action.Test_Valid_Login() : PASS");
-		} catch (Exception e) {
-			Log.error("Login_Action.Test_Valid_Login() : FAIL");
-			logger.log(Status.FAIL, MarkupHelper.createLabel("Test_Blank_login", ExtentColor.GREEN));
-			Log.error(e.getMessage());
-			throw (e);
-		}
-		try {
-			Login_Action.Test_InValid_Login();
-			logger.log(Status.PASS, MarkupHelper.createLabel("Test_InValid_Login", ExtentColor.GREEN));
-			Log.info("Login_Action.Test_InValid_Login() : PASS");
-		} catch (Exception e) {
-			Log.error("Login_Action.Test_InValid_Login() : FAIL");
-			Log.error(e.getMessage());
-			throw (e);
-		}
-	}
-
-	@Test
-	public void Test_Valid_Login() throws Exception {
-		Log.info("-------Start TestCase" + sTestCaseName + "----------");
-		driver.manage().deleteAllCookies();
-		logger = extent.createTest("Test Valid Login");
-		ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData, "Sheet1");
-		try {
+			logger.log(Status.PASS, MarkupHelper.createLabel("Click_SignIn_Link", ExtentColor.GREEN));
+			// Do Login
 			Login_Action.Test_Valid_Login();
-			logger.log(Status.PASS, MarkupHelper.createLabel("Test_Valid_Login ", ExtentColor.GREEN));
+			logger.log(Status.PASS, MarkupHelper.createLabel("Test_Valid_Login", ExtentColor.GREEN));
 			Log.info("Login_Action.Test_Valid_Login() : PASS");
 		} catch (Exception e) {
-		//	logger.log(Status.FAIL, MarkupHelper.createLabel("Test_Valid_Login", ExtentColor.RED));
 			Log.error("Login_Action.Test_Valid_Login() : FAIL");
+	//		logger.log(Status.FAIL, MarkupHelper.createLabel("Test_Valid_Login", ExtentColor.GREEN));
+			Log.error(e.getMessage());
+			// Utils.takeScreenshot(driver, sTestCaseName);
+			throw (e);
+		}
+		try {
+			Shopping_Action.Test_Select_Product_To_Cart();
+			logger.log(Status.PASS, MarkupHelper.createLabel("Test_Select_Product_To_Cart", ExtentColor.GREEN));
+			Log.info("Login_Action.Test_Select_Product_To_Cart() : PASS");
+		} catch (Exception e) {
+			Log.error("Login_Action.Test_Select_Product_To_Cart() : FAIL");
 			Log.error(e.getMessage());
 			throw (e);
 		}
+		try {
+			Shopping_Action.Test_CheckOut();
+			logger.log(Status.PASS, MarkupHelper.createLabel("Test_CheckOut", ExtentColor.GREEN));
+			Log.info("Login_Action.Test_CheckOut() : PASS");
+		} catch (Exception e) {
+			Log.error("Login_Action.Test_CheckOut() : FAIL");
+			Log.error(e.getMessage());
+			throw (e);
+		}
+		
 	}
 
 	@AfterMethod
