@@ -17,14 +17,14 @@ import utility.ExcelUtils;
 import utility.Log;
 import utility.TestListener;
 
-public class ShoppingTest extends Base {
+public class AddToCartTest extends Base {
 	// Getting the Test Case name, as it will going to use in so many places
 	private String sTestCaseName = this.toString();
 
 	@Test
 	public void Test_Select_Product() throws Exception {
 		Log.info("-------Start TestCase" + sTestCaseName + "----------");
-		logger = extent.createTest("Test Select Product");
+		logger = extent.createTest("Test Add To Cart Product");
 		ExcelUtils.setExcelFile(Constant.Path_TestData + Constant.File_TestData, "Sheet1");
 		try {
 			//Click on SignIn Link
@@ -49,8 +49,17 @@ public class ShoppingTest extends Base {
 			Log.error(e.getMessage());
 			throw (e);
 		}
+		try {
+			CheckOut_Action.Test_CheckOut();
+			logger.log(Status.PASS, MarkupHelper.createLabel("Test_CheckOut", ExtentColor.GREEN));
+			Log.info("Login_Action.Test_CheckOut() : PASS");
+		} catch (Exception e) {
+			Log.error("Login_Action.Test_CheckOut() : FAIL");
+			Log.error(e.getMessage());
+			throw (e);
+		}
+		
 	}
-
 	@AfterMethod
 	public void getResult(ITestResult result) throws Exception {
 		Log.endTestCase(sTestCaseName);
@@ -69,7 +78,6 @@ public class ShoppingTest extends Base {
 					MarkupHelper.createLabel(result.getName() + " - Test Case Skipped", ExtentColor.ORANGE));
 		}
 	}
-
 	@AfterTest
 	public void endReport() {
 		extent.flush();

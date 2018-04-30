@@ -20,7 +20,7 @@ public class Shopping_Page {
 	public static WebElement Size_M_CheckBox;
 	@FindBy(how = How.ID, using ="selectProductSort")
 	public static WebElement ProductSort_DropDown ;
-	@FindBy(how = How.XPATH, using = "//p[@id='add_to_cart']/button123")
+	@FindBy(how = How.XPATH, using = "//p[@id='add_to_cart']/button")
 	public static WebElement AddToCart_Submit;
 	@FindBy(how = How.CSS, using ="a.button.ajax_add_to_cart_button.btn.btn-default > span")
 	public static WebElement AddToCart_btn ;

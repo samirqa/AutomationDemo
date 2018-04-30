@@ -38,7 +38,7 @@ public class Shopping_Action extends Base {
 		
 		//Click on TShirt Tab
 		Functions.Click(Shopping_Page.TShirts_Tab);
-		logger.info("Click on :" + Shopping_Page.TShirts_Tab.getText() + " Tab Successfully");
+		//logger.info("Click on :" + Shopping_Page.TShirts_Tab.getText() + " Tab Successfully");
 		try {
 			if (Shopping_Page.Catalog_Label.getText().equalsIgnoreCase("Catalog"))
 			logger.info("Display : " + Shopping_Page.Catalog_Label.getText() + "Successfully");
@@ -48,31 +48,28 @@ public class Shopping_Action extends Base {
 			throw (e);
 		}
 		//Click on Check Box
-		Shopping_Page.Size_M_CheckBox.click();
-		logger.info("Click on M Size Check Box Successfully");
+		Functions.Click(Shopping_Page.Size_M_CheckBox);
+		//logger.info("Click on M Size Check Box Successfully");
 		Select dropdown = new Select(Shopping_Page.ProductSort_DropDown);
 		// Select value from Product drop down
 		dropdown.selectByVisibleText("Price: Lowest first");
 		logger.info("Select value : Price: Lowest first from product drop down");
 		// Click on TShirt link
-		Shopping_Page.TShirt_Link.click();
-		logger.info("Click on "+ Shopping_Page.TShirt_Link +" Link Successfully");
+		Functions.Click(Shopping_Page.TShirt_Link);
+		//logger.info("Click on "+ Shopping_Page.TShirt_Link +" Link Successfully");
 		Log.info("Test_Select_Product Executed Successfully");
 		List<WebElement> links = Shopping_Page.images.findElements(By.tagName("li"));
-		Actions a1 = new Actions(driver);
+		//Actions a1 = new Actions(driver);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("javascript:window.scrollBy(250,350)");
 		for (int i = 1; i < links.size(); i++)
 		{
-		    a1.moveToElement(links.get(i))
-            .build()
-            .perform();
+		    Functions.MouseHover(links.get(i));
 		    Thread.sleep(2000);
 		}
 		logger.info("Navigate the all small images Successfully");
 		Log.info("Navigate the all small images Successfully");
-		Shopping_Page.AddToCart_Submit.click();
-		logger.info("Click on "+ Shopping_Page.AddToCart_Submit +" Button Successfully");
+		Functions.Click(Shopping_Page.AddToCart_Submit);
 		Log.info("Click on "+ Shopping_Page.AddToCart_Submit +" Button Successfully");
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		try {
@@ -92,13 +89,8 @@ public class Shopping_Action extends Base {
 			Log.error("Fail to Add Product in Cart");
 			throw (e);
 		}
-	}
-	
-	public static void Test_CheckOut() throws Exception {
 		Log.info("Inside Shopping_Action.class - Test_CheckOut()");
 		Utils.waitForElement(Shopping_Page.ProccedCheckOut_btn);
-		Shopping_Page.ProccedCheckOut_btn.click();
-		logger.info("Click on Proceed to checkout button on poup up page");
+		Functions.Click(Shopping_Page.ProccedCheckOut_btn);
 	}
-	
 }
