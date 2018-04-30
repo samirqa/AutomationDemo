@@ -8,7 +8,8 @@ import org.openqa.selenium.support.How;
 //import utility.Utils;
 public class MyAccount_Page {
 
-	@FindBy(how = How.XPATH, using = "//div[@id='center_column']/h1")
+	@FindBy(how = How.XPATH, using = "//div[@id='center_column']")
+	//div[@id='center_column']/h1
 	public static WebElement MyAccount_Label;
 	@FindBy(how = How.LINK_TEXT, using = "Sign out")
 	public static WebElement SignOut_Link;
