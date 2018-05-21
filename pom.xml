@@ -5,26 +5,6 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>TestAutomationDemo</name>
   <description>This project for Test Automation Demo</description>
-  <build>
-    <sourceDirectory>ActionClass</sourceDirectory>
-    <resources>
-      <resource>
-        <directory>ActionClass</directory>
-        <excludes>
-          <exclude>**/*.java</exclude>
-        </excludes>
-      </resource>
-    </resources>
-    <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.7.0</version>
-        <configuration>
-          <release>9</release>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
   <dependencies>
   	<dependency>
   		<groupId>org.seleniumhq.selenium</groupId>
@@ -32,50 +12,53 @@
   		<version>3.11.0</version>
   	</dependency>
   	<dependency>
-  		<groupId>org.seleniumhq.selenium</groupId>
-  		<artifactId>selenium-firefox-driver</artifactId>
-  		<version>3.11.0</version>
-  	</dependency>
-  	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-api -->
-	<dependency>
-	    <groupId>org.seleniumhq.selenium</groupId>
-	    <artifactId>selenium-api</artifactId>
-	    <version>3.11.0</version>
-	</dependency>
-  	<dependency>
   		<groupId>com.aventstack</groupId>
   		<artifactId>extentreports</artifactId>
   		<version>3.1.5</version>
   	</dependency>
+	<dependency>
+    	<groupId>org.apache.poi</groupId>
+    	<artifactId>poi-ooxml</artifactId>
+    	<version>3.9</version>
+	</dependency>
   	<dependency>
-  		<groupId>org.apache.poi</groupId>
-  		<artifactId>poi</artifactId>
-  		<version>3.17</version>
-  	</dependency>
-  	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
-	<dependency>
-	    <groupId>org.apache.poi</groupId>
-	    <artifactId>poi-ooxml</artifactId>
-	    <version>3.17</version>
+  		<groupId>org.testng</groupId>
+  		<artifactId>testng</artifactId>
+  		<version>6.8</version>
 	</dependency>
-  	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
 	<dependency>
-	    <groupId>org.apache.poi</groupId>
-	    <artifactId>poi-ooxml-schemas</artifactId>
-	    <version>3.17</version>
+	    <groupId>commons-io</groupId>
+    	<artifactId>commons-io</artifactId>
+    	<version>2.6</version>
 	</dependency>
-  	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-examples -->
-	<dependency>
-	    <groupId>org.apache.poi</groupId>
-	    <artifactId>poi-examples</artifactId>
-	    <version>3.17</version>
-	</dependency>
-  	
   	<dependency>
   		<groupId>log4j</groupId>
   		<artifactId>log4j</artifactId>
   		<version>1.2.17</version>
   	</dependency>
-  	
   </dependencies>
+  
+  <build>
+    <plugins>
+      <plugin>
+       	<groupId>org.apache.maven.plugins</groupId>
+       	<artifactId>maven-compiler-plugin</artifactId>
+       	<version>3.7.0</version>
+       	<configuration>
+       		<source>1.8</source>
+       		<target>1.8</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.21.0</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
