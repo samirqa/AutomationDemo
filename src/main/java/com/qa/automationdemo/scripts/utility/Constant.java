@@ -1,4 +1,4 @@
-package com.qualtab.automationdemo.scripts.utility;
+package com.qa.automationdemo.scripts.utility;
 
 public class Constant {
 	public static final String URL = "http://automationpractice.com/index.php";

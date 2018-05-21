@@ -1,11 +1,11 @@
-package com.qualtab.automationdemo.scripts.library;
+package com.qa.automationdemo.scripts.library;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
-import com.qualtab.automationdemo.scripts.base.Base;
-import com.qualtab.automationdemo.scripts.utility.Log;
+import com.qa.automationdemo.scripts.base.Base;
+import com.qa.automationdemo.scripts.utility.Log;
 
 public class Functions extends Base {
 

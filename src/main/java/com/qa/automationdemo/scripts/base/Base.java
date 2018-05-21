@@ -1,4 +1,4 @@
-package com.qualtab.automationdemo.scripts.base;
+package com.qa.automationdemo.scripts.base;
 
 import java.io.File;
 import java.text.DateFormat;
@@ -18,8 +18,8 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-import com.qualtab.automationdemo.scripts.utility.ApplicationProperties;
-import com.qualtab.automationdemo.scripts.utility.Constant;
+import com.qa.automationdemo.scripts.utility.ApplicationProperties;
+import com.qa.automationdemo.scripts.utility.Constant;
 
 public class Base {
 

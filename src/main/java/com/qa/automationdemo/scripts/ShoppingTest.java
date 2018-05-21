@@ -1,4 +1,4 @@
-package com.qualtab.automationdemo.scripts;
+package com.qa.automationdemo.scripts;
 
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -8,23 +8,22 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.qualtab.automationdemo.scripts.appModule.CheckOut_Action;
-import com.qualtab.automationdemo.scripts.appModule.Login_Action;
-import com.qualtab.automationdemo.scripts.appModule.Shopping_Action;
-import com.qualtab.automationdemo.scripts.base.Base;
-import com.qualtab.automationdemo.scripts.utility.Constant;
-import com.qualtab.automationdemo.scripts.utility.ExcelUtils;
-import com.qualtab.automationdemo.scripts.utility.Log;
-import com.qualtab.automationdemo.scripts.utility.TestListener;
+import com.qa.automationdemo.scripts.appModule.Login_Action;
+import com.qa.automationdemo.scripts.appModule.Shopping_Action;
+import com.qa.automationdemo.scripts.base.Base;
+import com.qa.automationdemo.scripts.utility.Constant;
+import com.qa.automationdemo.scripts.utility.ExcelUtils;
+import com.qa.automationdemo.scripts.utility.Log;
+import com.qa.automationdemo.scripts.utility.TestListener;
 
-public class AddToCartTest extends Base {
+public class ShoppingTest extends Base {
 	// Getting the Test Case name, as it will going to use in so many places
 	private String sTestCaseName = this.toString();
 
 	@Test
 	public void Test_Select_Product() throws Exception {
 		Log.info("-------Start TestCase" + sTestCaseName + "----------");
-		logger = extent.createTest("Test Add To Cart Product");
+		logger = extent.createTest("Test Select Product");
 		ExcelUtils.setExcelFile(getTestDataPath() + Constant.File_TestData, "Sheet1");
 		try {
 			//Click on SignIn Link
@@ -49,17 +48,8 @@ public class AddToCartTest extends Base {
 			Log.error(e.getMessage());
 			throw (e);
 		}
-		try {
-			CheckOut_Action.Test_CheckOut();
-			logger.log(Status.PASS, MarkupHelper.createLabel("Test_CheckOut", ExtentColor.GREEN));
-			Log.info("Login_Action.Test_CheckOut() : PASS");
-		} catch (Exception e) {
-			Log.error("Login_Action.Test_CheckOut() : FAIL");
-			Log.error(e.getMessage());
-			throw (e);
-		}
-		
 	}
+
 	@AfterMethod
 	public void getResult(ITestResult result) throws Exception {
 		Log.endTestCase(sTestCaseName);
@@ -78,6 +68,7 @@ public class AddToCartTest extends Base {
 					MarkupHelper.createLabel(result.getName() + " - Test Case Skipped", ExtentColor.ORANGE));
 		}
 	}
+
 	@AfterTest
 	public void endReport() {
 		extent.flush();

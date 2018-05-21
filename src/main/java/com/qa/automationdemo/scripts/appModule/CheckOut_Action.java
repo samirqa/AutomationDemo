@@ -1,11 +1,11 @@
-package com.qualtab.automationdemo.scripts.appModule;
+package com.qa.automationdemo.scripts.appModule;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-import com.qualtab.automationdemo.pageobjects.CheckOut_Page;
-import com.qualtab.automationdemo.scripts.base.Base;
-import com.qualtab.automationdemo.scripts.utility.Log;
+import com.qa.automationdemo.pageobjects.CheckOut_Page;
+import com.qa.automationdemo.scripts.base.Base;
+import com.qa.automationdemo.scripts.utility.Log;
 
 // This is called Modularization, when we club series of actions in to one Module
 // For Modular Driven Frameworkg, please see http://www.toolsqa.com/modular-driven/   

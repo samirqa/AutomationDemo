@@ -1,4 +1,4 @@
-package com.qualtab.automationdemo.scripts.appModule;
+package com.qa.automationdemo.scripts.appModule;
 
 import java.util.List;
 
@@ -11,12 +11,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.qualtab.automationdemo.pageobjects.MyAccount_Page;
-import com.qualtab.automationdemo.pageobjects.Shopping_Page;
-import com.qualtab.automationdemo.scripts.base.Base;
-import com.qualtab.automationdemo.scripts.library.Functions;
-import com.qualtab.automationdemo.scripts.utility.Log;
-import com.qualtab.automationdemo.scripts.utility.Utils;
+import com.qa.automationdemo.pageobjects.MyAccount_Page;
+import com.qa.automationdemo.pageobjects.Shopping_Page;
+import com.qa.automationdemo.scripts.base.Base;
+import com.qa.automationdemo.scripts.library.Functions;
+import com.qa.automationdemo.scripts.utility.Log;
+import com.qa.automationdemo.scripts.utility.Utils;
 
 // This is called Modularization, when we club series of actions in to one Module
 // For Modular Driven Frameworkg, please see http://www.toolsqa.com/modular-driven/   

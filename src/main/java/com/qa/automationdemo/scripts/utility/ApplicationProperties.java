@@ -1,4 +1,4 @@
-package com.qualtab.automationdemo.scripts.utility;
+package com.qa.automationdemo.scripts.utility;
 
 import java.io.IOException;
 import java.util.Properties;

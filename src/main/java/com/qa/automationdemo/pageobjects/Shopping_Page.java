@@ -1,4 +1,4 @@
-package com.qualtab.automationdemo.pageobjects;
+package com.qa.automationdemo.pageobjects;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

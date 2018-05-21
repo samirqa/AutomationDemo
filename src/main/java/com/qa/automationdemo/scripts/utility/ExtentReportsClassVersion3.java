@@ -1,4 +1,4 @@
-package com.qualtab.automationdemo.scripts.utility;
+package com.qa.automationdemo.scripts.utility;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
