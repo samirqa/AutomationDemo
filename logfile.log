@@ -1170,3 +1170,49 @@ Home
 2018-05-20 19:02:04,391 INFO  [Log] X 
 2018-05-20 19:02:04,391 INFO  [Log] X 
 2018-05-20 19:02:04,391 INFO  [Log] X 
+2018-05-21 17:05:44,973 INFO  [Log] -------Start TestCasetestCases.LoginTest@2a266d09---------- 
+2018-05-21 17:05:45,546 INFO  [Log] Excel sheet opened 
+2018-05-21 17:05:45,547 INFO  [Log] Inside Login_Action.class - Click_SignIn_Link() 
+2018-05-21 17:05:45,652 INFO  [Log] Click on :Sign in 
+2018-05-21 17:05:47,352 INFO  [Log] Inside Login_Action.class - Test_Blank_login() 
+2018-05-21 17:05:47,419 INFO  [Log] Click on :Sign in 
+2018-05-21 17:05:49,044 INFO  [Log] Verified An email address required. message Successfully 
+2018-05-21 17:05:49,044 INFO  [Log] Test_Blank_login() Executed Successfully 
+2018-05-21 17:05:49,045 INFO  [Log] Login_Action.Test_Valid_Login() : PASS 
+2018-05-21 17:05:49,045 INFO  [Log] Inside Login_Action.class - Test_InValid_Login() 
+2018-05-21 17:05:49,045 INFO  [Log] Total number of Row used return as < 3 >. 
+2018-05-21 17:05:49,080 INFO  [Log] Enter Test Data :test in field [[FirefoxDriver: firefox on XP (809c610d-1243-4038-8a43-782ecfe5e167)] -> id: email] 
+2018-05-21 17:05:49,140 INFO  [Log] Click on :Sign in 
+2018-05-21 17:05:50,545 INFO  [Log] Verified Invalid email address. message Successfully 
+2018-05-21 17:05:50,580 INFO  [Log] Enter Test Data :Test@test.com in field [[FirefoxDriver: firefox on XP (809c610d-1243-4038-8a43-782ecfe5e167)] -> id: email] 
+2018-05-21 17:05:50,631 INFO  [Log] Enter Test Data :test123 in field [[FirefoxDriver: firefox on XP (809c610d-1243-4038-8a43-782ecfe5e167)] -> id: passwd] 
+2018-05-21 17:05:50,700 INFO  [Log] Click on :Sign in 
+2018-05-21 17:05:51,746 INFO  [Log] Verified Authentication failed. message Successfully 
+2018-05-21 17:05:51,746 INFO  [Log] Login_Action.Test_InValid_Login() : PASS 
+2018-05-21 17:05:51,748 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-05-21 17:05:51,748 INFO  [Log] X 
+2018-05-21 17:05:51,748 INFO  [Log] X 
+2018-05-21 17:05:51,748 INFO  [Log] X 
+2018-05-21 17:05:51,748 INFO  [Log] X 
+2018-05-21 17:05:51,749 INFO  [Log] -------Start TestCasetestCases.LoginTest@2a266d09---------- 
+2018-05-21 17:05:51,780 INFO  [Log] Excel sheet opened 
+2018-05-21 17:05:51,780 INFO  [Log] Inside Login_Action.class - Test_Valid_Login() 
+2018-05-21 17:05:51,782 INFO  [Log] Total number of Row used return as < 3 >. 
+2018-05-21 17:05:51,817 INFO  [Log] Enter Test Data :bitrich09@gmail.com in field [[FirefoxDriver: firefox on XP (809c610d-1243-4038-8a43-782ecfe5e167)] -> id: email] 
+2018-05-21 17:05:51,887 INFO  [Log] Enter Test Data :Admin@123 in field [[FirefoxDriver: firefox on XP (809c610d-1243-4038-8a43-782ecfe5e167)] -> id: passwd] 
+2018-05-21 17:05:51,949 INFO  [Log] Click on :Sign in 
+2018-05-21 17:05:53,547 INFO  [Log] Display : Sign out Successfully 
+2018-05-21 17:05:53,664 INFO  [Log] Display MY ACCOUNT
+Welcome to your account. Here you can manage all of your personal information and orders.
+ORDER HISTORY AND DETAILS
+MY CREDIT SLIPS
+MY ADDRESSES
+MY PERSONAL INFORMATION
+MY WISHLISTS
+Home 
+2018-05-21 17:05:53,664 INFO  [Log] Login_Action.Test_Valid_Login() : PASS 
+2018-05-21 17:05:53,665 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2018-05-21 17:05:53,666 INFO  [Log] X 
+2018-05-21 17:05:53,666 INFO  [Log] X 
+2018-05-21 17:05:53,666 INFO  [Log] X 
+2018-05-21 17:05:53,666 INFO  [Log] X 
