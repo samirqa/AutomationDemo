@@ -5,26 +5,6 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>TestAutomationDemo</name>
   <description>This project for Test Automation Demo</description>
-  <build>
-    <sourceDirectory>ActionClass</sourceDirectory>
-    <resources>
-      <resource>
-        <directory>ActionClass</directory>
-        <excludes>
-          <exclude>**/*.java</exclude>
-        </excludes>
-      </resource>
-    </resources>
-    <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.7.0</version>
-        <configuration>
-          <release>9</release>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
   <dependencies>
   	<dependency>
   		<groupId>org.seleniumhq.selenium</groupId>
@@ -36,15 +16,41 @@
   		<artifactId>extentreports</artifactId>
   		<version>3.1.5</version>
   	</dependency>
+	<dependency>
+    	<groupId>org.apache.poi</groupId>
+    	<artifactId>poi-ooxml</artifactId>
+    	<version>3.9</version>
+	</dependency>
   	<dependency>
-  		<groupId>org.apache.poi</groupId>
-  		<artifactId>poi</artifactId>
-  		<version>3.17</version>
-  	</dependency>
+  		<groupId>org.testng</groupId>
+  		<artifactId>testng</artifactId>
+  		<version>6.8</version>
+  		<scope>test</scope>
+	</dependency>
+	<dependency>
+	    <groupId>commons-io</groupId>
+    	<artifactId>commons-io</artifactId>
+    	<version>2.6</version>
+	</dependency>
   	<dependency>
   		<groupId>log4j</groupId>
   		<artifactId>log4j</artifactId>
   		<version>1.2.17</version>
   	</dependency>
   </dependencies>
+  
+  <build>
+    <plugins>
+        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.21.0</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
