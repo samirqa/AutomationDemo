@@ -14,7 +14,7 @@ import com.aventstack.extentreports.Status;
 import com.qualtab.automationdemo.scripts.base.Base;
 
 public class TestListener extends TestListenerAdapter {
-	WebDriver driver;
+	WebDriver driver; 
 	public Base base = new Base();
 	private static String fileSeperator = System.getProperty("file.separator");
 

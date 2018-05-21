@@ -1,9 +1,11 @@
 package com.qualtab.automationdemo.scripts.base;
 
+import java.io.File;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
@@ -34,7 +36,13 @@ public class Base {
 
 	@BeforeClass
 	public void _beforeTest() {
+		try{
 		DateFormat df = new SimpleDateFormat("dd.MM.yy-hhmmss");
+		File f = new File(Constant.Path_Report);
+		if(!f.exists())
+			f.mkdirs();
+		
+		
 		htmlReporter = new ExtentHtmlReporter(Constant.Path_Report + "TestReport_" +df.format(new Date()) + ".html");
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
@@ -62,7 +70,9 @@ public class Base {
 		driver.navigate().to(Constant.URL);
 		//logger.info("Open URL :" +Constant.URL);
 		driver.manage().window().maximize();
-
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 	@AfterClass
