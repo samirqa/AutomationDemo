@@ -31,7 +31,7 @@ public class TestListener extends TestListenerAdapter {
 		String dateyear = Utils.currentDateYear();
 		String screenShotName = testMethodName + "_" + datetime + ".png";
 		if (driver != null) {
-			String imagePath = Constant.Path_ScreenShot + fileSeperator + dateyear + fileSeperator + testClassName
+			String imagePath = getReportRoot() + Constant.Path_ScreenShot + fileSeperator + dateyear + fileSeperator + testClassName
 					+ fileSeperator + takeScreenShot(driver, screenShotName, testClassName);
 			System.out.println("Screenshot can be found : " + imagePath);
 			try {
@@ -44,18 +44,23 @@ public class TestListener extends TestListenerAdapter {
 			Base.logger.log(Status.FAIL, result.getName().toString().trim());
 		}
 	}
+	
+	private static String getReportRoot()
+	{
+		return ApplicationProperties.getInstance().getProperty("report.dir");
+	}
 
 	public static String takeScreenShot(WebDriver driver, String screenShotName, String testName) {
 		try {
 			String dateyear = Utils.currentDateYear();
-			File file = new File(Constant.Path_ScreenShot + fileSeperator + dateyear);
+			File file = new File(getReportRoot() +  Constant.Path_ScreenShot + fileSeperator + dateyear);
 			if (!file.exists()) {
 				System.out.println("File created " + file);
 				file.mkdir();
 			}
 
 			File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			File targetFile = new File(Constant.Path_ScreenShot + fileSeperator + dateyear + fileSeperator + testName,
+			File targetFile = new File(getReportRoot() + Constant.Path_ScreenShot + fileSeperator + dateyear + fileSeperator + testName,
 					screenShotName);
 			FileUtils.copyFile(screenshotFile, targetFile);
 

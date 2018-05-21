@@ -18,6 +18,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+import com.qualtab.automationdemo.scripts.utility.ApplicationProperties;
 import com.qualtab.automationdemo.scripts.utility.Constant;
 
 public class Base {
@@ -38,12 +39,12 @@ public class Base {
 	public void _beforeTest() {
 		try{
 		DateFormat df = new SimpleDateFormat("dd.MM.yy-hhmmss");
-		File f = new File(Constant.Path_Report);
+		File f = new File(ApplicationProperties.getInstance().getProperty("report.dir") + Constant.Path_Report);
 		if(!f.exists())
 			f.mkdirs();
 		
 		
-		htmlReporter = new ExtentHtmlReporter(Constant.Path_Report + "TestReport_" +df.format(new Date()) + ".html");
+		htmlReporter = new ExtentHtmlReporter(ApplicationProperties.getInstance().getProperty("report.dir") + Constant.Path_Report + "TestReport_" +df.format(new Date()) + ".html");
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		extent.setSystemInfo("Host Name", "https://stage.realtydaddy.com");

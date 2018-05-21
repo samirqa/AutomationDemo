@@ -20,7 +20,7 @@ public class Constant {
 	public static final int Col_Country = 10;
 	public static final int Col_Phone = 11;
 	public static final int Col_Result = 13;
-	public static final String Path_ScreenShot = System.getProperty("user.dir") + "\\TestResources\\TestReports\\Screenshots\\";
-	public static final String Path_Report = System.getProperty("user.dir") + "\\TestResources\\TestReports\\";
+	public static final String Path_ScreenShot = "\\TestResources\\TestReports\\Screenshots\\";
+	public static final String Path_Report = "\\TestResources\\TestReports\\";
 	public static final String FF_Driver =  "/drivers/geckodriver-v0.19.1-win64/geckodriver.exe";
 }

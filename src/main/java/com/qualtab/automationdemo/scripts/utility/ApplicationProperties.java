@@ -14,11 +14,14 @@ public class ApplicationProperties extends Properties {
 		load(getClass().getResourceAsStream("/application.properties"));
 	}
 	
+	private static Boolean symaphore=false;
+	
 	private static ApplicationProperties _appProps;
 	
 	public static ApplicationProperties getInstance()
 	{
-		synchronized (_appProps) {
+		System.out.println(_appProps);
+		synchronized (symaphore) {
 			if(_appProps!=null)
 				return _appProps;
 			else

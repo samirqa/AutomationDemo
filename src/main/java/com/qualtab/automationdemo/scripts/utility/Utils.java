@@ -44,7 +44,7 @@ public class Utils extends Base {
 	public static void takeScreenshot(WebDriver driver, String sTestCaseName) throws Exception {
 		try {
 			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(scrFile, new File(Constant.Path_ScreenShot + sTestCaseName + ".jpg"));
+			FileUtils.copyFile(scrFile, new File(ApplicationProperties.getInstance().getProperty("report.dir") + Constant.Path_ScreenShot + sTestCaseName + ".jpg"));
 		} catch (Exception e) {
 			Log.error("Class Utils | Method takeScreenshot | Exception occured while capturing ScreenShot : "
 					+ e.getMessage());

@@ -4,8 +4,8 @@
 	 <classes>       
         <!--  class name="script.Home"/ --> 
         <class name="com.qualtab.automationdemo.scripts.LoginTest"/>    
-<!--         <class name="com.qualtab.automationdemo.scripts.AddToCartTest"/>     -->
-<!--         <class name="com.qualtab.automationdemo.scripts.ShoppingTest"/> -->
+        <class name="com.qualtab.automationdemo.scripts.AddToCartTest"/>    
+        <class name="com.qualtab.automationdemo.scripts.ShoppingTest"/>
     </classes>
 </test>
  
