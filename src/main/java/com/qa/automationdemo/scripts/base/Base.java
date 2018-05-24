@@ -1,6 +1,7 @@
 package com.qa.automationdemo.scripts.base;
 
 import java.io.File;
+import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -10,8 +11,11 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -34,9 +38,11 @@ public class Base {
 	public static ExtentReports extent;
 	public static ExtentTest logger;
 	public static final Logger log4j = Logger.getLogger(Base.class);
-
+	
 	@BeforeClass
-	public void _beforeTest() {
+	//@Parameters(value={"browser"})
+	//public void _beforeTest(String browser) {
+		public void _beforeTest() {
 		try{
 		DateFormat df = new SimpleDateFormat("dd.MM.yy-hhmmss");
 		File f = new File(ApplicationProperties.getInstance().getProperty("report.dir") + Constant.Path_Report);
@@ -47,7 +53,7 @@ public class Base {
 		htmlReporter = new ExtentHtmlReporter(ApplicationProperties.getInstance().getProperty("report.dir") + Constant.Path_Report + "TestReport_" +df.format(new Date()) + ".html");
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
-		extent.setSystemInfo("Host Name", "https://stage.realtydaddy.com");
+		extent.setSystemInfo("Host Name", "http://automationpractice.com/");
 		extent.setSystemInfo("Environment", "Automation Testing");
 		extent.setSystemInfo("Reporter Name", "Samir Patel");
 
@@ -68,6 +74,17 @@ public class Base {
 
 		System.setProperty("webdriver.gecko.driver", getClass().getResource(Constant.FF_Driver).getPath());
 		driver = new FirefoxDriver();
+		      
+        /* For the Selenium Grid implementation 
+        DesiredCapabilities caps = new DesiredCapabilities();
+        caps.setPlatform(org.openqa.selenium.Platform.WINDOWS);
+        if (browser.equalsIgnoreCase("chrome"))
+        	   caps = DesiredCapabilities.chrome();
+        if (browser.equalsIgnoreCase("Firefox"))
+           caps = DesiredCapabilities.firefox();
+       // driver = new RemoteWebDriver(new URL("http://169.254.228.41:47731/wd/hub"),caps);
+        driver = new RemoteWebDriver(new URL("http://169.254.228.41:444/wd/hub"),caps);
+        */
 		driver.navigate().to(Constant.URL);
 		//logger.info("Open URL :" +Constant.URL);
 		driver.manage().window().maximize();
