@@ -2,6 +2,7 @@ package com.qa.automationdemo.scripts.base;
 
 import java.io.File;
 import java.net.URI;
+import java.net.URISyntaxException;
 import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -111,9 +112,13 @@ public class Base {
 		}
 	}
 	
-	public String getTestDataPath()
+	public String getTestDataPath() throws URISyntaxException
 	{
-		return getClass().getResource(Constant.Path_TestData).getPath();
+		URI url = new URI(getClass().getResource(Constant.Path_TestData).getFile());
+		File f1=new File(url.getPath());
+		Assert.assertEquals(f1.exists(), true);
+
+		return url.getPath();
 	}
 
 }
