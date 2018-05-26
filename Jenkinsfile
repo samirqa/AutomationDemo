@@ -14,3 +14,8 @@ stages {
 			}
 		}
 }
+
+def clean_build_step()
+{
+	sh 'mvn clean install'
+}
