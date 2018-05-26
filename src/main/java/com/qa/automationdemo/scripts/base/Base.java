@@ -40,9 +40,9 @@ public class Base {
 	public static final Logger log4j = Logger.getLogger(Base.class);
 	
 	@BeforeClass
-	//@Parameters(value={"browser"})
-	//public void _beforeTest(String browser) {
-		public void _beforeTest() {
+	@Parameters(value={"browser"})
+	public void _beforeTest(String browser) {
+	//	public void _beforeTest() {
 		try{
 		DateFormat df = new SimpleDateFormat("dd.MM.yy-hhmmss");
 		File f = new File(ApplicationProperties.getInstance().getProperty("report.dir") + Constant.Path_Report);
@@ -72,10 +72,10 @@ public class Base {
 		// http://www.toolsqa.com/log4j-logging/
 		DOMConfigurator.configure("log4j.xml");
 
-		System.setProperty("webdriver.gecko.driver", getClass().getResource(Constant.FF_Driver).getPath());
-		driver = new FirefoxDriver();
+		//System.setProperty("webdriver.gecko.driver", getClass().getResource(Constant.FF_Driver).getPath());
+		//driver = new FirefoxDriver();
 		      
-        /* For the Selenium Grid implementation 
+        // For the Selenium Grid implementation 
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setPlatform(org.openqa.selenium.Platform.WINDOWS);
         if (browser.equalsIgnoreCase("chrome"))
@@ -83,11 +83,12 @@ public class Base {
         if (browser.equalsIgnoreCase("Firefox"))
            caps = DesiredCapabilities.firefox();
        // driver = new RemoteWebDriver(new URL("http://169.254.228.41:47731/wd/hub"),caps);
-        driver = new RemoteWebDriver(new URL("http://169.254.228.41:444/wd/hub"),caps);
-        */
+       // driver = new RemoteWebDriver(new URL("http://169.254.228.41:444/wd/hub"),caps);
+        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),caps);
+        
 		driver.navigate().to(Constant.URL);
 		//logger.info("Open URL :" +Constant.URL);
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		}catch (Exception e) {
 			e.printStackTrace();
 		}
