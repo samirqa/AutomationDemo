@@ -74,14 +74,20 @@ public class Base {
 		// http://www.toolsqa.com/test-case-with-log4j/
 		// http://www.toolsqa.com/log4j-logging/
 		DOMConfigurator.configure("log4j.xml");
+
+
+		//System.setProperty("webdriver.gecko.driver", getClass().getResource(Constant.FF_Driver).getPath());
+		//driver = new FirefoxDriver();
+
 		System.out.println(getClass().getResource(Constant.FF_Driver));
 		URI url = new URI(getClass().getResource(Constant.FF_Driver).getFile());
 		File f1=new File(url.getPath());
 		Assert.assertEquals(f1.exists(), true);
 		System.setProperty("webdriver.gecko.driver", url.getPath());
 		driver = new FirefoxDriver();
+
 		      
-        /* For the Selenium Grid implementation 
+        /* For the Selenium Grid implementation with Docker 
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setPlatform(org.openqa.selenium.Platform.WINDOWS);
         if (browser.equalsIgnoreCase("chrome"))
@@ -89,7 +95,8 @@ public class Base {
         if (browser.equalsIgnoreCase("Firefox"))
            caps = DesiredCapabilities.firefox();
        // driver = new RemoteWebDriver(new URL("http://169.254.228.41:47731/wd/hub"),caps);
-        driver = new RemoteWebDriver(new URL("http://169.254.228.41:444/wd/hub"),caps);
+       // driver = new RemoteWebDriver(new URL("http://169.254.228.41:444/wd/hub"),caps);
+        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),caps);
         */
 		driver.navigate().to(Constant.URL);
 		//logger.info("Open URL :" +Constant.URL);
