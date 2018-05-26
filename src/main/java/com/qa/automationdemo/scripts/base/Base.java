@@ -43,9 +43,9 @@ public class Base {
 	public static final Logger log4j = Logger.getLogger(Base.class);
 	
 	@BeforeClass
-	@Parameters(value={"browser"})
-	public void _beforeTest(String browser) {
-	//	public void _beforeTest() {
+	//@Parameters(value={"browser"})
+	//public void _beforeTest(String browser) {
+		public void _beforeTest() {
 		try{
 		DateFormat df = new SimpleDateFormat("dd.MM.yy-hhmmss");
 		File f = new File(ApplicationProperties.getInstance().getProperty("report.dir") + Constant.Path_Report);
