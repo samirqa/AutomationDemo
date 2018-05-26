@@ -1,6 +1,8 @@
 package com.qa.automationdemo.scripts.base;
 
 import java.io.File;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -13,6 +15,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -71,8 +74,11 @@ public class Base {
 		// http://www.toolsqa.com/test-case-with-log4j/
 		// http://www.toolsqa.com/log4j-logging/
 		DOMConfigurator.configure("log4j.xml");
-
-		System.setProperty("webdriver.gecko.driver", getClass().getResource(Constant.FF_Driver).getPath());
+		System.out.println(getClass().getResource(Constant.FF_Driver));
+		URI url = new URI(getClass().getResource(Constant.FF_Driver).getFile());
+		File f1=new File(url.getPath());
+		Assert.assertEquals(f1.exists(), true);
+		System.setProperty("webdriver.gecko.driver", url.getPath());
 		driver = new FirefoxDriver();
 		      
         /* For the Selenium Grid implementation 
@@ -106,9 +112,13 @@ public class Base {
 		}
 	}
 	
-	public String getTestDataPath()
+	public String getTestDataPath() throws URISyntaxException
 	{
-		return getClass().getResource(Constant.Path_TestData).getPath();
+		URI url = new URI(getClass().getResource(Constant.Path_TestData).getFile());
+		File f1=new File(url.getPath());
+		Assert.assertEquals(f1.exists(), true);
+
+		return url.getPath();
 	}
 
 }
