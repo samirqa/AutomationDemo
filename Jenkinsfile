@@ -17,5 +17,9 @@ stages {
 
 def clean_build_step()
 {
-	sh 'mvn clean install'
+	shell('mvn clean install')
+}
+
+def shell(command) {
+    return bat(returnStdout: true, script: "${command}").trim()
 }
