@@ -1,25 +1,21 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Suite" thread-count="1" parallel="tests">
-<test name="TestValid_Login" >  
+	<test name="Login">
 
-	    <!--  parameter name="browser" value="chrome" / -->
-	   	
-	   <classes>       
-        <!--  class name="script.Home"/ --> 
-        <class name="com.qa.automationdemo.scripts.LoginTest"/>    
-        <class name="com.qa.automationdemo.scripts.AddToCartTest"/>    
-        <class name="com.qa.automationdemo.scripts.ShoppingTest"/>
-    </classes>
-</test>
-<!--  test name="TestValid_Login1" -->  
-	
-	   <!-- parameter name="browser" value="Firefox" / -->
-		
-	   <!-- classes -->       
-        <!--  class name="script.Home"/ --> 
-        <!-- class name="com.qa.automationdemo.scripts.LoginTest"/ -->    
-        <!-- class name="com.qa.automationdemo.scripts.AddToCartTest"/ !-->    
-        <!-- class name="com.qa.automationdemo.scripts.ShoppingTest"/ !-->
-    <!--  /classes -->
-<!--  /test -->
+		<!-- parameter name="browser" value="chrome" / -->
+		<classes>
+			<class name="com.qa.rd.scripts.CustomLoginTest" />
+		</classes>
+	</test>
+	<test name="Registration">
+		<classes>
+			<class name="com.qa.rd.scripts.RegistrationTest" />
+		</classes>
+	</test>
+	<test name="CreatePropertyRequest">
+		<classes>
+			<class name="com.qa.rd.scripts.CreatePropertyRequestTest" />
+			<class name="com.qa.rd.scripts.SearchPropertyRequestTest" />
+		</classes>
+	</test>
 </suite>

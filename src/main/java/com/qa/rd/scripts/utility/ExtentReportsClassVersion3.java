@@ -1,4 +1,4 @@
-package com.qa.automationdemo.scripts.utility;
+package com.qa.rd.scripts.utility;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

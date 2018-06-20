@@ -22,7 +22,7 @@
         <!-- class name="com.qa.automationdemo.scripts.ShoppingTest"/ !-->
     </classes>
 </test>
-<test name="TestValid_Login3">  
+ <test name="TestValid_Login3">  
 	
 	   <parameter name="browser" value="Firefox"/>
 		
@@ -45,17 +45,6 @@
     </classes>
 </test>
 <test name="TestValid_Login5">  
-	
-	   <parameter name="browser" value="Firefox"/>
-		
-	   <classes>       
-        <!--  class name="script.Home"/ --> 
-        <class name="com.qa.automationdemo.scripts.LoginTest"/>    
-        <!-- class name="com.qa.automationdemo.scripts.AddToCartTest"/ !-->    
-        <!-- class name="com.qa.automationdemo.scripts.ShoppingTest"/ !-->
-    </classes>
-</test>
-<test name="TestValid_Login6">  
 	
 	   <parameter name="browser" value="Firefox"/>
 		

@@ -1,4 +1,4 @@
-package com.qa.automationdemo.scripts.utility;
+package com.qa.rd.scripts.utility;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,7 +11,7 @@ import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
 
 import com.aventstack.extentreports.Status;
-import com.qa.automationdemo.scripts.base.Base;
+import com.qa.rd.scripts.base.Base;
 
 public class TestListener extends TestListenerAdapter {
 	WebDriver driver; 
@@ -41,7 +41,7 @@ public class TestListener extends TestListenerAdapter {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			Base.logger.log(Status.FAIL, result.getName().toString().trim());
+			//Base.logger.log(Status.FAIL, result.getName().toString().trim());
 		}
 	}
 	

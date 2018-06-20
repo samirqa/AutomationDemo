@@ -1,4 +1,4 @@
-package com.qa.automationdemo.scripts.utility;
+package com.qa.rd.scripts.utility;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

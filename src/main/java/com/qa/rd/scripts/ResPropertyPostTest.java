@@ -1,6 +1,7 @@
-package com.qa.automationdemo.scripts;
+package com.qa.rd.scripts;
 
 import org.testng.ITestResult;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
@@ -8,32 +9,29 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.qa.automationdemo.scripts.appModule.Login_Action;
-import com.qa.automationdemo.scripts.base.Base;
-import com.qa.automationdemo.scripts.utility.Constant;
-import com.qa.automationdemo.scripts.utility.ExcelUtils;
-import com.qa.automationdemo.scripts.utility.Log;
-import com.qa.automationdemo.scripts.utility.TestListener;
+import com.qa.rd.scripts.appModule.Login_Action;
+import com.qa.rd.scripts.base.Base;
+import com.qa.rd.scripts.utility.Constant;
+import com.qa.rd.scripts.utility.ExcelUtils;
+import com.qa.rd.scripts.utility.Log;
+import com.qa.rd.scripts.utility.TestListener;
 
-public class LoginTest extends Base {
+public class ResPropertyPostTest extends Base {
 	// Getting the Test Case name, as it will going to use in so many places
 	private String sTestCaseName = this.toString();
 
 	@Test
-	public void Test_Login_Validation() throws Exception {
+	public void Test_Res_Property_Post() throws Exception {
 		Log.info("-------Start TestCase" + sTestCaseName + "----------");
 		driver.manage().deleteAllCookies();
-		logger = extent.createTest("Test Login Validation");
-		ExcelUtils.setExcelFile(getTestDataPath() + Constant.File_TestData, "Sheet1");
+		logger = extent.createTest("Test Post Property");
 		try {
-			Login_Action.Click_SignIn_Link();
+			Login_Action.Click_Login_Link();
 			Login_Action.Test_Blank_login();
 			logger.log(Status.PASS, MarkupHelper.createLabel("Test_Blank_login", ExtentColor.GREEN));
 			Log.info("Login_Action.Test_Valid_Login() : PASS");
 		} catch (Exception e) {
 			Log.error("Login_Action.Test_Valid_Login() : FAIL");
-			logger.log(Status.FAIL, MarkupHelper.createLabel("Test_Blank_login", ExtentColor.GREEN));
-			Log.error(e.getMessage());
 			throw (e);
 		}
 		try {
@@ -41,26 +39,22 @@ public class LoginTest extends Base {
 			logger.log(Status.PASS, MarkupHelper.createLabel("Test_InValid_Login", ExtentColor.GREEN));
 			Log.info("Login_Action.Test_InValid_Login() : PASS");
 		} catch (Exception e) {
-			Log.error("Login_Action.Test_InValid_Login() : FAIL");
-			Log.error(e.getMessage());
 			throw (e);
 		}
 	}
 
 	@Test
-	public void Test_Valid_Login() throws Exception {
+	public void Test_Valid_Registration() throws Exception {
 		Log.info("-------Start TestCase" + sTestCaseName + "----------");
 		driver.manage().deleteAllCookies();
-		logger = extent.createTest("Test Valid Login");
-		ExcelUtils.setExcelFile(getTestDataPath() + Constant.File_TestData, "Sheet1");
+		logger = extent.createTest("Test Valid Registration");
+		ExcelUtils.setExcelFile(getTestDataPath() + Constant.File_TestData, "LoginTest");
 		try {
 			Login_Action.Test_Valid_Login();
 			logger.log(Status.PASS, MarkupHelper.createLabel("Test_Valid_Login ", ExtentColor.GREEN));
 			Log.info("Login_Action.Test_Valid_Login() : PASS");
 		} catch (Exception e) {
-		//	logger.log(Status.FAIL, MarkupHelper.createLabel("Test_Valid_Login", ExtentColor.RED));
 			Log.error("Login_Action.Test_Valid_Login() : FAIL");
-			Log.error(e.getMessage());
 			throw (e);
 		}
 	}
@@ -69,7 +63,6 @@ public class LoginTest extends Base {
 	public void getResult(ITestResult result) throws Exception {
 		Log.endTestCase(sTestCaseName);
 		if (result.getStatus() == ITestResult.FAILURE) {
-			// logger.log(Status.FAIL, "Test Case Failed is "+result.getName());
 			// MarkupHelper is used to display the output in different colors
 			logger.log(Status.FAIL,
 					MarkupHelper.createLabel(result.getName() + " - Test Case Failed", ExtentColor.RED));
@@ -86,6 +79,6 @@ public class LoginTest extends Base {
 
 	@AfterTest
 	public void endReport() {
-		extent.flush();
+		driver.close();
 	}
 }
